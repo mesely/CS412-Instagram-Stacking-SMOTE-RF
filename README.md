@@ -1,4 +1,3 @@
-# CS412-Instagram-Stacking-SMOTE-RF
 # Influencer Category Classification
 # Data Preprocessing and Feature Extraction 
 
