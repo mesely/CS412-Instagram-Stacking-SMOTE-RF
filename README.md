@@ -8,7 +8,7 @@
 ### Handling Missing Values
 
 - **Features which have high percentage missing values(80%)** (e.g., `business_category_name`) were excluded.
-- **Features which has personal information ** (e.g., `biography`, `external_url`) replaced with placeholders like `"no biography"` and `"unknown"`.
+- **Features which has personal information** (e.g., `biography`, `external_url`) replaced with placeholders like `"no biography"` and `"unknown"`.
 - **Categorical features** were imputed using their mode.
 
 | **Feature**              | **Missing Percentage (%)** |
