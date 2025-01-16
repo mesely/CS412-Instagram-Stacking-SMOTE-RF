@@ -105,6 +105,7 @@ Features related to users and posts that are necessary for predicting like count
 ## Feature Engineering
 
 <img width="411" alt="Ekran Resmi 2025-01-12 20 11 00" src="https://github.com/user-attachments/assets/a5899145-33b5-4d3c-911a-c0049dee9659" />
+
 For numerical features like likes, followers, and engagement metrics, there was a noticeable skewness in the dataset. **Log transformations** were used to normalize these features and stabilize variance in order to deal with this. As you can see, our follower_count feature's distribution has stabilized. This improves the model's ability to forecast relationships (the target variable was also subjected to a log transformation). To further standardize the dataset for the regression model, **Min-Max Normalization** was used to scale all numerical features. To give the data a more comprehensive representation, new features were created:
 - Ratios, such as `follower_following_ratio` and `emoji_per_word`, were calculated to explore interactions between variables.
 - Interaction-based features, such as `business_follower` and `verified_business`, were engineered to combine boolean and numerical data.
