@@ -84,6 +84,7 @@ Using Bayesian optimization (through `scikit-optimize` library), runtime was gre
 
 ## Results
 Preprocessing, feature extraction, and careful balancing techniques are crucial, as demonstrated by the final model's increased accuracy and robustness, especially in difficult and unbalanced classes.
+
 <img width="425" alt="Ekran Resmi 2025-01-12 19 53 51" src="https://github.com/user-attachments/assets/78014f52-4612-46f8-8eab-fa7a5db890ec" />
 
 With an average cross-validation accuracy of 0.9729, the model demonstrated strong generalization across various data splits. The dominant diagonal in the confusion matrix indicates that the majority of predictions match their actual labels. While small misclassifications happened in semantically related classes, such as "entertainment" overlapping with "art" or "health and lifestyle," categories like "gaming" and "sports" were accurately predicted.
